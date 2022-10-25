@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: monospace;
-    background-color: white;
     background-color: #000;
+    font-family: monospace;
 }
 header{
     background-color: #000;
@@ -130,3 +129,9 @@ header{
     }
 }
 
+@media screen and(max-width: 400px) {
+    body{
+        background-color: beige;
+    }
+    
+}
