@@ -7,6 +7,8 @@
 body {
   background-color: #000;
   font-family: monospace;
+  width: 100vw;
+  height: 100vh;
 }
 
 header {
@@ -128,8 +130,11 @@ header {
   border-radius: 15px;
 }
 
-@media screen and (max-width: 400px) {
-  body {
-    background-color: beige;
+@media (max-width: 460px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
   }
 }/*# sourceMappingURL=style.css.map */
