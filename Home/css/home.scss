@@ -18,10 +18,11 @@
   header{
     display: flex;
     justify-content: center;
-    background-color: black;
   }
 
   .box{
+    position: fixed;
+    background-color: black;
     padding: 10px;
     display: flex;
     width: 1200px;
@@ -67,12 +68,9 @@
 
   .card-1{
     margin: 20px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 20px;
     width: 300px;
-    height: 400px;
     border-radius: 15px;
     background-color: #16151A;
 
@@ -92,6 +90,84 @@
       font-size: 12px;
       margin: 20px 0px;
     }
+  }
+
+  .card-2{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #16151A;
+
+    &-input{
+      margin: 10px;
+      padding: 10px 15px;
+      border-radius: 15px;
+      }
+    &-btn{
+      cursor: pointer;
+      background-color: transparent;
+      padding: 10px 30px;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      border-radius: 15px;
+      border: 2px solid white;
+      }
+    &-btn:hover{
+      color: #000;
+      cursor: pointer;
+      background-color: rgb(0, 255, 106);
+      border: 2px solid rgb(0, 255, 106);
+      }
+    &-p{
+      color: white;
+      font-size: 50px;
+      }
+      &-h2{
+        color: white;
+        font-size: 20px;
+      }
+  }
+
+  .btn-operator{
+    background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+    border:  none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 2px;
+    transition: all 200ms ease;
+    &:hover{
+      transform: scale(1.1);
+
+    }
+    &-1{
+      width: 50px;
+      height: 100px;
+      border-radius: 20px;
+
+    }
+  }
+  #display{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .dark{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
   }
 
 //RESPONSIVE
