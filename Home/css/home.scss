@@ -52,7 +52,12 @@
 
 //RESPONSIVE
   @media (max-width: 560px) {
+    header{
+      width: 100vw;
+      height: 100vh;
+    }
     .box{
+
         justify-content: center;
         padding: 10px;
 
