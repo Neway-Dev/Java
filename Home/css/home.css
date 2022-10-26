@@ -135,6 +135,8 @@ main {
 }
 
 .btn-operator {
+  color: black;
+  font-size: 15px;
   background: linear-gradient(to right, rgb(183, 222, 237) 0%, rgb(113, 206, 239) 50%, rgb(33, 180, 226) 51%, rgb(183, 222, 237) 100%);
   border: none;
   height: 50px;
@@ -154,7 +156,6 @@ main {
 
 #display {
   font-size: 25px;
-  color: rgb(0, 0, 0);
   height: 40px;
   border-radius: 15px;
   display: flex;
