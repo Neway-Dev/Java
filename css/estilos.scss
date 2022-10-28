@@ -9,6 +9,16 @@ body{
     font-family: 'Montserrat';
     background-color: black;
 }
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    right: 25px;
+    z-index: 2;
+}
+.menu-btn i{
+    color: white;
+}
 .container{
     width: 75%;
     margin: auto;
@@ -39,3 +49,27 @@ ul{
 .nav-maim a:hover{
     color:cyan;
 }
+.nav-maim ul.nav-menu.show{
+    transform: translate(-0px);
+    transition: transform .05s ease-in-out;
+}
+
+@media (max-width: 700px){
+    .nav-maim ul.nav-menu{
+    
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(19, 16, 32);
+        height: 50%;
+        width: 100vw;
+        opacity: .9;
+        transform: translateX(-400px);
+    }
+    .nav-menu li{
+        text-align: center;
+    }
+}
+
+
