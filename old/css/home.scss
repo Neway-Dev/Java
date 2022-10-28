@@ -15,48 +15,70 @@
   body{
     background-color: black;
   }
-  header{
+  // header{
+  //   display: flex;
+  //   justify-content: center;
+  //   background-color: rgb(25, 49, 231);
+  // }
+
+  // .box{
+  //   position: fixed;
+  //   background-color: black;
+  //   padding: 10px;
+  //   display: flex;
+  //   width: 1200px;
+  //   justify-content: space-evenly;
+  //   align-items: center;
+  //   text-align: center;
+
+  //   &-logo{
+  //       width: 50px;
+  //   }
+  //   &-link{
+  //       font-size: 20px;
+  //       text-decoration: none;
+  //       color: white;
+  //   }
+  //   &-btn{
+  //       padding: 10px 30px;
+  //       text-decoration: none;
+  //       color: white;
+  //       font-size: 20px;
+  //       border-radius: 15px;
+  //       border: 2px solid white;
+  //   }
+  //   &-btn:hover{
+  //       background-color: rgb(0, 255, 106);
+  //       border-radius: 15px;
+  //       border: 2px solid rgb(0, 255, 106);
+
+  //   }
+  // }
+
+  .padre{
     display: flex;
-    justify-content: center;
+    text-align:center;
+    background-color: gold;
+  
   }
-
-  .box{
-    position: fixed;
-    background-color: black;
-    padding: 10px;
+  .hijo{
     display: flex;
-    width: 1200px;
     justify-content: space-evenly;
+    height:50px;
+    width:1400px;
+    margin:0px auto;
+    background-color:rgb(97, 97, 97);
     align-items: center;
-    text-align: center;
 
-    &-logo{
-        width: 50px;
-    }
-    &-link{
-        font-size: 20px;
-        text-decoration: none;
-        color: white;
-    }
-    &-btn{
-        padding: 10px 30px;
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        border-radius: 15px;
-        border: 2px solid white;
-    }
-    &-btn:hover{
-        background-color: rgb(0, 255, 106);
-        border-radius: 15px;
-        border: 2px solid rgb(0, 255, 106);
-
-    }
+  }
+  .logo{
+    width: 50px;
   }
   main{
     display: flex;
     justify-content: center;
   }
+
   .box-article{
     justify-content: center;
     margin-top: 100px;
@@ -196,4 +218,5 @@
 
 
   }
+  
   

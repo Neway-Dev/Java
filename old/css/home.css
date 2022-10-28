@@ -17,41 +17,24 @@ body {
   background-color: black;
 }
 
-header {
+.padre {
   display: flex;
-  justify-content: center;
+  text-align: center;
+  background-color: gold;
 }
 
-.box {
-  position: fixed;
-  background-color: black;
-  padding: 10px;
+.hijo {
   display: flex;
-  width: 1200px;
   justify-content: space-evenly;
+  height: 50px;
+  width: 1400px;
+  margin: 0px auto;
+  background-color: rgb(97, 97, 97);
   align-items: center;
-  text-align: center;
 }
-.box-logo {
+
+.logo {
   width: 50px;
-}
-.box-link {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-}
-.box-btn {
-  padding: 10px 30px;
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  border-radius: 15px;
-  border: 2px solid white;
-}
-.box-btn:hover {
-  background-color: rgb(0, 255, 106);
-  border-radius: 15px;
-  border: 2px solid rgb(0, 255, 106);
 }
 
 main {
