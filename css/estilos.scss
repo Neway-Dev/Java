@@ -15,6 +15,7 @@ body{
     top: 30px;
     right: 25px;
     z-index: 2;
+    display: none;
 }
 .menu-btn i{
     color: white;
@@ -65,7 +66,7 @@ ul{
         height: 50%;
         width: 100vw;
         opacity: .9;
-        transform: translateX(-400px);
+        transform: translateX(-700px);
     }
     .nav-menu li{
         text-align: center;
