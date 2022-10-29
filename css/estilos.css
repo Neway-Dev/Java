@@ -7,7 +7,7 @@
 
 body {
   font-family: "Montserrat";
-  background-color: black;
+  background-color: #0E0E0E;
 }
 
 .menu-btn {
@@ -58,7 +58,7 @@ ul {
 }
 
 .nav-maim a:hover {
-  color: cyan;
+  color: rgb(0, 110, 255);
 }
 
 .nav-maim ul.nav-menu.show {
@@ -80,5 +80,8 @@ ul {
   }
   .nav-menu li {
     text-align: center;
+  }
+  .menu-btn {
+    display: block;
   }
 }/*# sourceMappingURL=estilos.css.map */

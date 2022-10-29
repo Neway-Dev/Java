@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Montserrat';
-    background-color: black;
+    background-color: #0E0E0E
 }
 .menu-btn{
     position: absolute;
@@ -48,14 +48,16 @@ ul{
     padding: 20px;
 }
 .nav-maim a:hover{
-    color:cyan;
+    color:rgb(0, 110, 255);
 }
 .nav-maim ul.nav-menu.show{
     transform: translate(-0px);
     transition: transform .05s ease-in-out;
 }
 
+
 @media (max-width: 700px){
+
     .nav-maim ul.nav-menu{
     
         display: block;
@@ -71,6 +73,10 @@ ul{
     .nav-menu li{
         text-align: center;
     }
+    .menu-btn{
+        display: block;
+    }
+
 }
 
 
