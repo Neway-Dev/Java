@@ -33,6 +33,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
 ul {
   list-style: none;
 }
@@ -66,13 +74,56 @@ ul {
   transition: transform 0.05s ease-in-out;
 }
 
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  width: 300px;
+  height: 500px;
+  margin: 20px 10px;
+  background-color: rgb(34, 34, 34);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+
+.color-bg {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  background-color: aqua;
+}
+
+.content {
+  padding: 20px;
+}
+.content-img {
+  border-radius: 20px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: auto auto;
+  }
+}
 @media (max-width: 700px) {
   .nav-maim ul.nav-menu {
     display: block;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgb(19, 16, 32);
+    background-color: rgb(18, 18, 18);
     height: 50%;
     width: 100vw;
     opacity: 0.9;
@@ -83,5 +134,8 @@ ul {
   }
   .menu-btn {
     display: block;
+  }
+  .grid {
+    grid-template-columns: auto;
   }
 }/*# sourceMappingURL=estilos.css.map */

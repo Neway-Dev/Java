@@ -8,6 +8,20 @@
     <title>Login</title>
 </head>
 <body>
+    <?php
+    include "config.php"
+    error_reporting(0);
+    session_start();
+
+    if(isset($_SESSION["username"])){
+        header("location: index.php")
+    }
+
+    if(isset($_POST["subtmit"])){
+        $username=$_POST["username"]
+        
+    }
+    ?>
     <div class="container">
         <div class="box">
             <div class="form">
